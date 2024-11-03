@@ -1,0 +1,22 @@
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, color 0.5s; /* Geçiş efektleri */
+}
+
+.light {
+    background-color: yellow;
+    color: black;
+}
+
+.dark {
+    background-color: navy; /* Koyu tema */
+    color: white;
+}
+
+.orange {
+    background-color: orange; /* Turuncu tema */
+    color: black;
+}
